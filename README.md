@@ -1,4 +1,3 @@
-
 git-ignore
 ==========
 
@@ -9,7 +8,7 @@ git-ignore
 
 ## Usage
 
-```git-ignore [-a|-i VALUE]```
+```git ignore [-a|-i VALUE]```
 - i: create a new .gitignore file
 - a: add a list of ignore file-names to the .gitignore
 - VALUE: 欲しい .gitignore のタイプ
@@ -45,3 +44,6 @@ Icon
 *.war
 *.ear
 ```
+
+### Add a list of ignore file-names for windows to the .gitignore
+``` git ignore -a windows```
