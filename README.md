@@ -3,7 +3,6 @@ git-ignore
 
 - Gitの.gitignoreを簡単に準備するためのgitサブコマンドです
 - [gitignore.io](http://gitignore.io/)を利用しています
-- 毎回.gitignoreを作って ```.DS_Store```や```Thumbs.db```を書くのが面倒くさかったので作りました
 - 色々課題はあるので直していきたい
 
 ## Usage
