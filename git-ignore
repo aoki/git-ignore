@@ -30,13 +30,13 @@ done
 
 if ${FLAG_INIT}; then
   echo "Create the new .gitignore file."
-  curl -s http://gitignore.io/api/${IGNORE_LIST} > .gitignore
+  curl -s http://www.gitignore.io/api/${IGNORE_LIST} > .gitignore
   exit 0 
 fi
 
 if ${FLAG_ADD}; then
   echo "Add a ignore data to the .gitignore file."
-  curl -s http://gitignore.io/api/${IGNORE_LIST} >> .gitignore
+  curl -s http://www.gitignore.io/api/${IGNORE_LIST} >> .gitignore
   exit 0
 fi
 
